@@ -1,0 +1,43 @@
+.notify {
+  position: fixed;
+  left: 0; right: 0;
+  top: calc(var(--nav-h) + 8px);
+  z-index: 1200;
+  display: grid;
+  place-items: center;
+  pointer-events: none;           /* يمنع حجز النقر خارج الداخل */
+  opacity: 0; transform: translateY(-12px);
+  transition: opacity .2s ease, transform .2s ease;
+  outline: none;
+}
+.notify.show { opacity: 1; transform: translateY(0); }
+
+.notify-inner {
+  pointer-events: auto;           /* تفعيل النقر على زر الإغلاق */
+  display: flex; align-items: center; gap: 10px;
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  padding: 10px 14px;
+  max-width: min(780px, 92vw);
+}
+
+.notify.success .notify-inner { border-color: rgba(22,163,74,.25); }
+.notify.info    .notify-inner { border-color: rgba(39,70,144,.28); }
+.notify.error   .notify-inner { border-color: rgba(220,38,38,.28); }
+
+.notify-ic { font-size: 18px; line-height: 1; }
+.notify-msg { font-weight: 600; }
+
+.notify-close {
+  margin-left: 8px;
+  background: transparent; border: none; color: inherit; cursor: pointer;
+  font-size: 18px; line-height: 1;
+}
+
+@media (max-width: 520px) {
+  .notify { top: calc(var(--nav-h) + 6px); }
+  .notify-inner { padding: 9px 12px; }
+}

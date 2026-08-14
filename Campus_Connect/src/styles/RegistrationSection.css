@@ -1,0 +1,75 @@
+/* Wrapper */
+.registration .reg-form {
+  max-width: 780px;
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+}
+
+.registration .row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.registration .field,
+.registration .field-check {
+  display: grid;
+  gap: 6px;
+}
+
+.registration label {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: .2px;
+}
+
+.registration .input,
+.registration .select,
+.registration .textarea {
+  background: transparent;
+}
+
+/* Errors */
+.registration .error {
+  color: var(--danger);
+  font-size: 12.5px;
+}
+
+.registration .field.invalid .input,
+.registration .field.invalid .select,
+.registration .field.invalid .textarea,
+.registration .field-check.invalid .check {
+  border-color: rgba(220,38,38,.6);
+  box-shadow: 0 0 0 2px rgba(220,38,38,.08);
+}
+
+/* Checkbox */
+.registration .check {
+  display: inline-flex;
+  align-items: start;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.registration .check input[type="checkbox"] {
+  transform: translateY(2px);
+}
+
+/* Actions */
+.registration .actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Responsive */
+@media (max-width: 720px) {
+  .registration .row-2 {
+    grid-template-columns: 1fr;
+  }
+  .registration .actions {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Dr. Ahmed Ali",
+    "role": "Faculty Coordinator",
+    "department": "CSE",
+    "phone": "123-456-789",
+    "email": "ahmed@caompuscollge.com",
+    "type": "Faculty"
+  },
+  {
+    "name": ". Lina Hassan",
+    "role": "student Coordinator",
+    "department": "Sports Committee",
+    "phone": "123-555-010",
+    "email": "lina.hassan@altoofan.com",
+    "type": "student"
+  },
+  {
+    "name": "Prof. Samir Youssef",
+    "role": "Faculty Coordinator",
+    "department": "Cultural Club",
+    "phone": "123-555-020",
+    "email": "samir.youssef@alnasser.com",
+    "type": "Faculty"
+  }
+
+
+
+  
+ 
+]

@@ -1,0 +1,19 @@
+/* Mobile */
+@media (max-width: 640px) {
+  .container { padding: 16px; }
+  .section { margin: 10px; padding: 16px; }
+  .nav-inner { padding: 0 14px; }
+  .nav-links { gap: 10px; }
+  .banner { height: 240px; }
+  .cards-grid, .events-grid { grid-template-columns: 1fr; }
+}
+
+/* Tablet */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .banner { height: 320px; }
+}
+
+/* Large Screens */
+@media (min-width: 1280px) {
+  .container { max-width: 1280px; }
+}

@@ -1,0 +1,57 @@
+{
+  "institution": {
+    "name": "Campus Connect College of Engineering",
+    "affiliation": "Al-Nasser University",
+    "location": "Sana'a, Yemen",
+    "established": ""
+  },
+  "highlights": [
+    {  "text": "NAAC A+ Accredited" },
+    {  "text": "5000+ Students" },
+    { "text": "95% Placement Rate" },
+    { "text": "Modern Labs & Facilities" }
+  ],
+  "annualEvents": [
+    {
+      "key": "tech",
+      "title": "Technical",
+      "icon": "💻",
+      "color": "tech",
+      "items": [
+        { "name": "TechFest", "month": "Feb" },
+        { "name": "Code Marathon", "month": "Sep" },
+        { "name": "Robotics Championship", "month": "Nov" }
+      ]
+    },
+    {
+      "key": "cultural",
+      "title": "Cultural",
+      "icon": "🎭",
+      "color": "cultural",
+      "items": [
+        { "name": "Annual Day", "month": "Dec" },
+        { "name": "Music Night", "month": "Mar" },
+        { "name": "Dance Competition", "month": "Oct" }
+      ]
+    },
+    {
+      "key": "sports",
+      "title": "Sports & Activities",
+      "icon": "🏃‍♂️",
+      "color": "sports",
+      "items": [
+        { "name": "Sports Meet", "month": "Jan" },
+        { "name": "Blood Donation", "month": "Jun/Dec" },
+        { "name": "Alumni Meet", "month": "Aug" }
+      ]
+    }
+  ],
+  "bodies": [
+ 
+    { "icon": "🎨", "label": "Cultural Committee" },
+    { "icon": "⚽", "label": "Sports Committee" },
+    { "icon": "💡", "label": "Technical Society" }
+,    { "icon": "💡", "label": "Academic " }
+    
+  ]
+}

@@ -1,0 +1,19 @@
+{
+ "hero": {
+    "title": "Welcome to CampusConnect",
+    "subtitle": "Your Gateway to Campus Events & Activities",
+    "cta": { "label": "Explore Events", "target": "#events" },
+    "secondaryCta": { "label": "Learn More", "target": "#about" }
+  },
+    "secondaryCta": {
+      "label": "Learn More",
+      "target": "#about"
+    
+  },
+
+  "slider": [
+    "/images/hero/campus-1.jpg",
+    "/images/hero/campus-2.jpg",
+    "/images/hero/campus-3.jpg"
+  ]
+}

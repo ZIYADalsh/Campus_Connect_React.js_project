@@ -1,0 +1,16 @@
+[
+  { "id": "g1", "src": "/images/gallery/tecnical/tech1.jpg", "alt": "TechFest keynote", "year": 2025, "category": "Technical", "eventId": "evt-techfest-2025" },
+  { "id": "g2", "src": "/images/gallery/tecnical/tech-2.jpg", "alt": "Robotics arena", "year": 2025, "category": "Technical", "eventId": "evt-robotics-2025" },
+  { "id": "g3", "src": "/images/gallery/culutere/cult-1.jpg", "alt": "Cultural dance", "year": 2025, "category": "Cultural", "eventId": "evt-cultural-week-2025" },
+  { "id": "g4", "src": "/images/gallery/culutere/cult-2.jpg", "alt": "Music night", "year": 2025, "category": "Cultural", "eventId": "evt-music-night-2025" },
+  { "id": "g5", "src": "/images/gallery/sport/sports.jpg", "alt": "Basketball match", "year": 2025, "category": "Sports", "eventId": "evt-sports-meet-2025" },
+  { "id": "g6", "src": "/images/gallery/sport/sports-2.jpg", "alt": "Athletics", "year": 2025, "category": "Sports", "eventId": "evt-sports-meet-2025" },
+
+  { "id": "g7", "src": "/images/gallery/academic/academic-1.jpg", "alt": "Blood donation drive", "year": 2025, "category": "Academic", "eventId": "evt-blood-donation-2025" },
+  { "id": "g10", "src": "/images/gallery/academic/academic-2.jpg", "alt": "Orientation day session", "year": 2025, "category": "Academic", "eventId": "evt-admissions-week-2025" },
+  { "id": "g11", "src": "/images/gallery/academic/academic-3.jpg", "alt": "Library orientation", "year": 2025, "category": "Academic", "eventId": "evt-admissions-week-2025" },
+  { "id": "g12", "src": "/images/gallery/academic/academic-4.jpg", "alt": "Department presentation", "year": 2025, "category": "Academic", "eventId": "evt-admissions-week-2025" },
+
+  { "id": "g8", "src": "/images/gallery/culutere/alumni-1.jpg", "alt": "Alumni meet", "year": 2025, "category": "Cultural", "eventId": "evt-alumni-meet-2025" },
+  { "id": "g9", "src": "/images/gallery/culutere/art-1.jpg", "alt": "Art expo", "year": 2026, "category": "Cultural", "eventId": "evt-art-expo-2026" }
+]
